@@ -14,7 +14,25 @@ function render(html) {
    *      - Si es impar ==> renderizar un cuadrado de 50px x 50px blue
    */
   
-  const firstStr = prompt("introduzca el primer string"); //paso 1
-  const secondStr = prompt("introduzca el segundo string"); //paso 2
-  const concatResult = firstStr + secondStr; // pase 3
 
+const firstStr = prompt("introduzca el primer string"); //paso 1
+const secondStr = prompt("introduzca el segundo string"); //paso 2
+const concatResult = firstStr + secondStr; // pase 3
+render(`
+    <style class=result__text>
+    </style>
+
+    <p class="result__text">
+        El resultado total es: ${concatResult.length}
+    </p>
+    `); // paso 4 y paso 5
+
+// ¿Que tipo de dato me devuelve esta operación? --> concatResult.length % 2 --> Número
+const isLengthEven = concatResult.length % 2 === 0;
+if (isLengthEven){
+    //para par
+    render(`<div class="square square--even"></div>`);
+} else {
+    //para impar
+    render(`<div class="square square--odd"></div>`);
+}
