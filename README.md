@@ -15,15 +15,25 @@ El propósito de este proyecto es practicar los conceptos básicos de JavaScript
 
 ## **Estructura del Proyecto:**
 
-. ├── index.html ├── exercise-1 │ ├── index.html │ └── script.js ├── exercise-2 │ ├── index.html │ └── script.js └── ...
+.
+├── index.html
+├── exercise-1
+│   ├── index.html
+│   └── script.js
+├── exercise-2
+│   ├── index.html
+│   └── script.js
+└──...
 
 ## **Ejercicios:**
 
-⏳ 1. **Concatenar Cadenas:** Solicitar dos cadenas y mostrar la longitud de su concatenación.
-⏳2. **Convertir Temperatura:** Convertir grados Celsius a Fahrenheit.
-⏳3. **Calcular IMC:** Calcular el índice de masa corporal (IMC) y determinar si es "Obesidad de clase II".
-⏳4. **Límite de Velocidad:** Ajustar el límite de velocidad en función de la contaminación.
-⏳5. **Semáforo:** Determinar si un coche debe detenerse o continuar según el estado del semáforo.
+- ⏳ 1. **Concatenar Cadenas:** Solicitar dos cadenas y mostrar la longitud de su concatenación.
+- 2. **Convertir Temperatura:** Convertir grados Celsius a Fahrenheit.
+- 3. **Calcular IMC:** Calcular el índice de masa corporal (IMC) y determinar si es "Obesidad de clase II".
+- 4. **Límite de Velocidad:** Ajustar el límite de velocidad en función de la contaminación.
+- 5. **Semáforo:** Determinar si un coche debe detenerse o continuar según el estado del semáforo.
+
+
 
 📜 Licencia Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
 
