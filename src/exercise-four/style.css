@@ -1,0 +1,80 @@
+/* Estilos generales para la página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e3e3e3;
+}
+
+header {
+    background-color: #3f3f3f; /* fondo para la cabecera */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+
+
+description {
+    display: block;
+    padding: 15px;
+    font-size: 1rem;
+    color: #555;
+}
+
+
+
+/* Estilo para la sección de resultado */
+main {
+    padding: 20px;
+}
+
+
+#EXERCISE_RESULT {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.normal-speed {
+    color: green; /* Color verde para velocidad normal */
+    font-weight: 700;
+}
+.reduced-speed {
+    color: red; /* Color rojo para velocidad reducida */
+    font-weight: 900;
+}
