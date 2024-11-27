@@ -70,50 +70,11 @@ main {
     text-align: left;
 }
 
-p{
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-
-.light {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
+.grade {
+    font-weight: bolder;
   }
 
-    .light_green {
-    background-color: green;
-    }
-
-    .light_flashing-amber {
-        background-color: yellow;
-    }
-
-    .light_amber {
-        background-color: orange;
-    }
-
-
-    .light_red {
-        background-color: red;
-    }
-
-    .light_error {
-        background-color: rgb(124, 2, 2);
-    }
-
-
-
-/** // manera compacta de hacerlo
-  .light__go {
-    background-color: rgb(41, 201, 26);
-  }
-  
-  .light__stop {
-    background-color: rgb(255, 81, 0);
-  }
-  .light__error {
-    background-color: rgb(150, 0, 0);
-  }
- */
+ .grade_error {
+    font-weight: bolder;
+    color: red;
+ }
