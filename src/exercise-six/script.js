@@ -57,10 +57,18 @@ for (const state of qualifications) {
 }
 
 // Paso 4: Mostrar el resultado
-if (resultLabel == "Calificación no válida.") {
+if (resultLabel === "Calificación no válida.") {
     console.log(`Tu calificación es: ${resultLabel}`);
-    render(`<div class="grade"></div><p>Tu calificación es: ${resultLabel}</p>`);
+    render(`
+        <p class="grade grade_error">
+             ${resultLabel}
+        </p>
+     `);
 } else {
-    console.log(resultLabel);
-    render(`<div class="grade grade_error"></div><p>${resultLabel}</p>`);
+    console.log(`Tu calificación es: ${resultLabel}`);
+    render(`
+        <p class="grade">
+             Tu calificación es: ${resultLabel}
+        </p>
+     `);
 }
