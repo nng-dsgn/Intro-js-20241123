@@ -78,24 +78,16 @@ main {
 
 /* Elementos extras del ejecicio */
 
-.result__text {
-    color: #2d9c2d; /* Verde en hexadecimal */
-    font-weight: 900;
-    margin-bottom: 0.9375rem; /* 15px */
+.result {
+    font-size: 1rem; /* 16px */
+    margin: 0.25rem auto; /* 4px */
+    color: #424242;
+    font-weight: bold;
 }
 
-.square {
-    width: 3.125rem; /* 50px */
-    height: 3.125rem; /* 50px */
+.result_error{
+    font-size: 1rem; /* 16px */
+    margin: 0.25rem auto; /* 4px */
+    color: #b91010;
+    font-weight: bold;
 }
-
-.square--even {
-    background-color: #f8f844; /* Color amarillo en hexadecimal */
-    border-radius: 0.5rem; /* 8px */
-}
-
-.square--odd {
-    background-color: #6565fa; /* Color azul en hexadecimal */
-    border-radius: 0.5rem; /* 8px */
-}
-

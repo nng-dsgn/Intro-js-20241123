@@ -27,9 +27,12 @@ console.log(`${celsius}°C son equivalentes a ${fahrenheit}°F.`);
 
 // Renderizar el resultado 
  render(`
-   <p class="result__text">
-        La temperatura en Fahrenheit es: ${fahrenheit}°F
-   </p>
+    <p>
+        Temperatura en Celsius: ${celsius}°C
+    </p>
+    <p class="result__text">
+        Equivalente en Fahrenheit: ${fahrenheit}°F
+    </p>
 `);
 
 

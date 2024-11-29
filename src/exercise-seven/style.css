@@ -78,24 +78,25 @@ main {
 
 /* Elementos extras del ejecicio */
 
-.result__text {
-    color: #2d9c2d; /* Verde en hexadecimal */
-    font-weight: 900;
-    margin-bottom: 0.9375rem; /* 15px */
+.grade {
+    font-size: 1rem; /* 16px */
+    padding: 0.5rem; /* 8px */
+    border-radius: 0.25rem; /* 4px */
+    margin: 0.5rem auto; /* 8px */
+    text-align: center;
+    max-width: 25rem; /* 400px */
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
 }
 
-.square {
-    width: 3.125rem; /* 50px */
-    height: 3.125rem; /* 50px */
+.grade_github {
+    background-color: #e6f7ff; /* Azul claro */
+    color: #0073e6; /* Azul oscuro */
+    border: 0.0625rem solid #0073e6; /* 1px */
 }
 
-.square--even {
-    background-color: #f8f844; /* Color amarillo en hexadecimal */
-    border-radius: 0.5rem; /* 8px */
+.grade_error {
+    background-color: #ffe6e6; /* Rojo muy claro */
+    color: #e60000; /* Rojo */
+    border: 0.0625rem solid #e60000; /* 1px */
 }
-
-.square--odd {
-    background-color: #6565fa; /* Color azul en hexadecimal */
-    border-radius: 0.5rem; /* 8px */
-}
-

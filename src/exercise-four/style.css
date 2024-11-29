@@ -7,74 +7,83 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #e3e3e3;
+    background-color: #e3e3e3; /* Color de fondo */
 }
 
 header {
-    background-color: #3f3f3f; /* fondo para la cabecera */
-    color: white;
-    padding: 10px 20px;
+    background-color: #3f3f3f; /* Fondo para la cabecera */
+    color: #ffffff; /* Color blanco */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
     text-align: center;
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 2rem; /* 32px */
     font-weight: bold;
-    margin: 1rem;
+    margin: 1rem; /* 16px */
 }
 
 nav ul {
     list-style: none;
-    margin-top: 10px;
+    margin-top: 0.625rem; /* 10px */
 }
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 1.25rem; /* 20px */
 }
 
 nav ul li a {
-    color: rgb(214, 214, 214);
+    color: #d6d6d6; /* Gris claro */
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.1rem; /* 17.6px */
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ffeb3b;
+    color: #ffeb3b; /* Amarillo */
 }
 
 
+/* Enunciado del ejercicio */
+
+h2 {
+    font-size: 1.25rem; /* 20px */
+    font-weight: bold;
+    padding: 0.9375rem 0.9375rem 0rem 0.9375rem; /* 15px */
+    color: #3b3b3b;
+}
 
 .description {
     display: block;
-    padding: 15px;
-    font-size: 1rem;
-    color: #555;
+    padding: 0.9375rem; /* 15px */
+    font-size: 1rem; /* 16px */
+    color: #555555;
 }
-
-
 
 /* Estilo para la sección de resultado */
 main {
-    padding: 20px;
+    padding: 1.25rem; /* 20px */
 }
 
-
 #EXERCISE_RESULT {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 1.25rem; /* 20px */
+    padding: 1.25rem; /* 20px */
+    background-color: #ffffff; /* Blanco */
+    border-radius: 0.5rem; /* 8px */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* 4px 8px */
     text-align: left;
 }
 
+
+/* Elementos extras del ejecicio */
+
 .normal-speed {
-    color: green; /* Color verde para velocidad normal */
+    color: #28a745; /* Verde en hexadecimal */
     font-weight: 700;
 }
+
 .reduced-speed {
-    color: red; /* Color rojo para velocidad reducida */
+    color: #dc3545; /* Rojo en hexadecimal */
     font-weight: 900;
 }
