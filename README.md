@@ -52,35 +52,35 @@ La estructura del proyecto es la siguiente:
     - **Descripción:** El ejercicio solicita al usuario el estado actual de un semáforo ('verde', 'amarillo intermitente', 'amarillo', 'rojo') y le indica si el coche debe detenerse o puede continuar, con una gestión de errores si el valor ingresado no es válido.
     - [Ver ejercicio 5](./exercise-five/)
 
-- ⏳ **6. Calificación en Letras:** 
+- ✅ **6. Calificación en Letras:** 
     - **Descripción:** El algoritmo solicita una calificación numérica y devuelve la calificación correspondiente en formato de letras: Suspensa, Aprobada, Notable, Sobresaliente o Matrícula de Honor.
     - [Ver ejercicio 6](./exercise-six/)
 
-- ⏳ **7. Validación de Dominio de URL:** 
+- ✅ **7. Validación de Dominio de URL:** 
     - **Descripción:** Solicita una URL y extrae el dominio, indicando si es un dominio principal de 'Github' o un subdominio.
     - [Ver ejercicio 7](./exercise-seven/)
 
-- ⏳ **8. Números Pares o Impares:** 
+- ✅ **8. Números Pares o Impares:** 
     - **Descripción:** Solicita un número y realiza un bucle desde 0 hasta ese número, imprimiendo si el número es par o impar.
     - [Ver ejercicio 8](./exercise-eight/)
 
-- ⏳ **9. Ejercicio FizzBuzz:** 
+- ✅ **9. Ejercicio FizzBuzz:** 
     - **Descripción:** Solicita un número y realiza un bucle desde 1 hasta ese número. Imprime 'Fizz' si el número es múltiplo de 3, 'Buzz' si es múltiplo de 5, y 'FizzBuzz' si es múltiplo de ambos.
     - [Ver ejercicio 9](./exercise-nine/)
 
-- ⏳ **10. Inversión de Número:** 
+- ✅ **10. Inversión de Número:** 
     - **Descripción:** Solicita un número al usuario y lo imprime al revés, mostrando cómo invertir el orden de sus dígitos.
     - [Ver ejercicio 10](./exercise-ten/)
 
-- ⏳ **11. Validación de DNI Español:** 
+- ✅ **11. Validación de DNI Español:** 
     - **Descripción:** Solicita un número de DNI español y valida si es correcto según las reglas de formato y longitud del DNI español.
     - [Ver ejercicio 11](./exercise-eleven/)
 
-- ⏳ **12. Patrón de Triángulo en HTML:** 
+- ✅ **12. Patrón de Triángulo en HTML:** 
     - **Descripción:** Solicita un número representando la altura de un triángulo y genera un patrón visual en HTML con asteriscos. El triángulo se mueve de izquierda a derecha según el ancho de la ventana.
     - [Ver ejercicio 12](./exercise-twelve/)
 
-
+⏳
 
 📜 Licencia Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
 
