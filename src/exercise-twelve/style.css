@@ -8,6 +8,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #e3e3e3; /* Color de fondo */
+    overflow: hidden; /* Evitar barras de desplazamiento */
 }
 
 header {
@@ -98,9 +99,6 @@ main {
     animation: moverIzquierdaDerecha 5s infinite alternate linear;
 }
 
-body {
-    overflow: hidden; /* Evitar barras de desplazamiento */
-}
 
 /* Animación para mover el triángulo */
 @keyframes moverIzquierdaDerecha {

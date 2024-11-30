@@ -18,10 +18,11 @@ function render(html) {
    * 4. Visualizar el límite de velocidad actual.
    */
   
-const velocoidad = 90 
+const velocoidad = 90  // Declaramos la velocidad inicial como constante
+let velocidad; // Declaramos la variable velocidad que puede cambiar
 const contaminación = prompt("Introduzca el nivel de contaminación (%):"); // Paso 2: solicitar contaminación
 if (contaminación > 65){
-    velocidad = 70 
+    velocidad = 70; // Asignamos un nuevo valor a velocidad
     console.log(`El límite de velocidad en la carretera es ${velocidad} km/h.`);
     render (`<span class="reduced-speed">El límite de velocidad en la carretera es ${velocidad} km/h.</span>`);
 } else if (contaminación < 65) {
