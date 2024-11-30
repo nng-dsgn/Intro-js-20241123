@@ -10,7 +10,7 @@ body {
     background-color: #e3e3e3; /* Color de fondo */
     overflow: hidden; /* Evitar barras de desplazamiento */
 }
-
+/* header */
 header {
     background-color: #3f3f3f; /* Fondo para la cabecera */
     color: #ffffff; /* Color blanco */
@@ -24,6 +24,7 @@ header h1 {
     margin: 1rem; /* 16px */
 }
 
+/* indice */
 nav ul {
     list-style: none;
     margin-top: 0.625rem; /* 10px */
@@ -31,8 +32,9 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 1.25rem; /* 20px */
+    margin: 0.625rem; /* 10px */
 }
+
 
 nav ul li a {
     color: #d6d6d6; /* Gris claro */

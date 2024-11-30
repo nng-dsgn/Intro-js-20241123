@@ -1,0 +1,60 @@
+/* Estilos generales para la página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e3e3e3; /* Color de fondo */
+}
+
+/* header */
+.header-index {
+    background-color: #3f3f3f; /* Fondo para la cabecera */
+    color: #ffffff; /* Color blanco */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    text-align: center;
+}
+
+.header-title {
+    font-size: 2rem; /* 32px */
+    font-weight: bold;
+    margin: 1rem; /* 16px */
+}
+
+
+
+
+/* Indice - Navegavión*/
+.index-list {
+    list-style: none;
+    margin: 0.625rem; /* 10px */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 0.625rem; /* 10px */
+}
+
+.index-item {
+    background-color: #4a4949;
+    border-radius: 0.625rem; /* 10px */
+}
+
+nav ul li a {
+    color: #d6d6d6; /* Gris claro */
+    text-decoration: none;
+    font-size: 1.1rem; /* 17.6px */
+    padding: 0.8rem; /* Mantener padding fijo */
+    display: inline-block; /* Asegura que el padding y border se apliquen correctamente */
+    border-radius: 0.625rem; /* 10px */
+    transition: all 0.3s ease; /* Transición para color y transform */
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Amarillo */
+    background-color: #1c1b1b; /* Fondo oscuro al pasar el mouse */
+    transform: scale(1.05); /* Efecto de crecimiento suave */
+}
