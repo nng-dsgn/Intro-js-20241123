@@ -10,25 +10,16 @@
 </head>
 
 <body>
-    <header>
-        <h1>Ejercicios JS</h1>
-        <nav>
-            <ul>
-                <li><a href="../exercise-one/">Ejercicio 1</a></li>
-                <li><a href="../exercise-two/">Ejercicio 2</a></li>
-                <li><a href="../exercise-three/">Ejercicio 3</a></li>
-                <li><a href="../exercise-four/">Ejercicio 4</a></li>
-                <li><a href="../exercise-five/">Ejercicio 5</a></li>
-                <li><a href="../exercise-six/">Ejercicio 6</a></li>
-                <li><a href="../exercise-seven/">Ejercicio 7</a></li>
-                <li><a href="../exercise-eight/">Ejercicio 8</a></li>
-                <li><a href="../exercise-nine/">Ejercicio 9</a></li>
-                <li><a href="../exercise-ten/">Ejercicio 10</a></li>
-                <li><a href="../exercise-eleven/">Ejercicio 11</a></li>
-                <li><a href="../exercise-twelve/">Ejercicio 12</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="header-container"></div>
+    <script>
+        // Cargar el contenido del header desde el archivo header.html
+        fetch('../shared/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error cargando el header:', error));
+    </script>
     <main>
         <h2>Ejercicio 8. Números Pares o Impares:</h2>
         <p class="description">Solicita un número y realiza un bucle desde 0 hasta ese número, imprimiendo si el número es par o impar.</p>

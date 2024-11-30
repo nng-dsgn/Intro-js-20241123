@@ -10,6 +10,19 @@
 </head>
 
 <body>
+    <div id="header-container"></div>
+    <script>
+        // Cargar el contenido del header desde el archivo header.html
+        fetch('../shared/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error cargando el header:', error));
+    </script>
+
+
+<!--
     <header>
         <h1>Ejercicios JS</h1>
         <nav>
@@ -27,8 +40,10 @@
                 <li><a href="../exercise-eleven/">Ejercicio 11</a></li>
                 <li><a href="../exercise-twelve/">Ejercicio 12</a></li>
             </ul>
+
         </nav>
     </header>
+-->
     <main>
         <h2>Ejercicio 1. Concatenación de Cadenas:</h2>
         <p class="description">El ejercicio pide al usuario ingresar dos cadenas de texto y luego muestra la longitud de la cadena resultante al concatenarlas.
