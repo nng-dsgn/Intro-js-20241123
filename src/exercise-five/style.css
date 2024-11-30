@@ -110,8 +110,8 @@ p {
 }
 
 /* Este bloque define los estilos para las luces de estado compactado (go, stop, error).
-   Actualmente no se usa, pero se conserva para posibles implementaciones futuras.*/
-/*
+   Actualmente no se usa, pero se conserva para posibles implementaciones futuras.
+   
 .light__go {
     background-color: rgb(41, 201, 26);
 }
