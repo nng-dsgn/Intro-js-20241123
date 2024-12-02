@@ -36,18 +36,8 @@ function isValidDNI(dni) {
     const numbers = dni.slice(0, 8); // Primeros 8 caracteres
     const letter = dni.slice(8).toUpperCase(); // Último carácter en mayúscula
 
-    // Verificar que los primeros 8 caracteres sean números
-    if (isNaN(numbers)) {
-        return false;
-    }
-
-    // Verificar que el último carácter sea una letra
-    if (!/^[A-Z]$/.test(letter)) {
-        return false;
-    }
-
-    // Si pasa todas las validaciones, el DNI es válido
-    return true;
+    // Verificar que los primeros 8 caracteres sean números, Verificar que el último carácter sea una letra, Si pasa todas las validaciones, el DNI es válido
+    return !isNaN(numbers) && /^[A-Z]$/.test(letter);
 }
 
 // Paso 3: Mostrar el resultado
