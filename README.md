@@ -78,7 +78,7 @@ La estructura del proyecto es la siguiente:
 
 - ✅ **12. Patrón de Triángulo en HTML:** 
     - **Descripción:** Solicita un número representando la altura de un triángulo y genera un patrón visual en HTML con asteriscos. El triángulo se mueve de izquierda a derecha según el ancho de la ventana.
-    - [Ver ejercicio 12]([./exercise-twelve/](https://deploy-preview-2--intro-js-20241123.netlify.app/exercise-twelve/))
+    - [Ver ejercicio 12](./exercise-twelve/)
 
 ⏳
 
