@@ -23,17 +23,19 @@ function render(html) {
     * 
    */
 
-  // Paso 1. Crear un objeto que representa un coche
-  //Un coche tiene propiedades como brand, model, plate, currentSpeed y si está encendido o apagado (isOn).
- /*
-    const car = {
-      brand: "Toyota",
-      model: "Corolla",
-      plate: "ABC-123",
-      currentSpeed: 80,
-      isOn: true,
-    };
- */
+ /** Paso 1. Crear un objeto que representa un coche
+    * Un coche tiene propiedades como brand, model, plate, currentSpeed y si está encendido o apagado (isOn).
+    * 
+    * const car = {
+      * brand: "Toyota",
+      * model: "Corolla",
+      * plate: "ABC-123",
+      * currentSpeed: 80,
+      * isOn: true,
+    * };
+    * 
+   */
+  
 // Paso 2: Crear un arreglo de coches con al menos 4 coches. Incluiremos al menos 4 objetos coche dentro de un array.
  const cars = [
     { brand: "Toyota", model: "Corolla", plate: "1234FGH", currentSpeed: 80, isOn: true },
