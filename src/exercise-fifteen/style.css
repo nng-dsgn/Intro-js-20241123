@@ -79,3 +79,6 @@ main {
 
 
 /* Elementos extras del ejecicio */
+.error{
+    color: #ff0000;
+}
