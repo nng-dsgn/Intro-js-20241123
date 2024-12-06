@@ -34,52 +34,63 @@ La estructura del proyecto es la siguiente:
 
 - ✅ **1. Concatenación de Cadenas:** 
     - **Descripción:** El ejercicio pide al usuario ingresar dos cadenas de texto y luego muestra la longitud de la cadena resultante al concatenarlas.
-    - [Ver ejercicio 1](./exercise-one/)
+    - [Ver ejercicio 1](./src/exercise-one/index.html)
 
 - ✅ **2. Conversión de Celsius a Fahrenheit:** 
     - **Descripción:** Solicita al usuario una temperatura en grados Celsius y la convierte a grados Fahrenheit, mostrando el resultado.
-    - [Ver ejercicio 2](./exercise-two/)
+    - [Ver ejercicio 2](./src/exercise-two/index.html)
 
 - ✅ **3. Cálculo del IMC:** 
     - **Descripción:** El ejercicio solicita dos números (peso y altura) y calcula el Índice de Masa Corporal (IMC), luego determina si el resultado es 'Obesidad de clase II'.
-    - [Ver ejercicio 3](./exercise-three/)
+    - [Ver ejercicio 3](./src/exercise-three/index.html)
 
 - ✅ **4. Límites de Velocidad según Contaminación:** 
     - **Descripción:** Establece que en una carretera con límite de velocidad de 90 km/h, si la contaminación es mayor al 65%, el límite de velocidad debe ser 70 km/h. El algoritmo ajusta el límite según la condición de contaminación.
-    - [Ver ejercicio 4](./exercise-four/)
+    - [Ver ejercicio 4](./src/exercise-four/index.html)
 
 - ✅ **5. Comportamiento del Semáforo:** 
     - **Descripción:** El ejercicio solicita al usuario el estado actual de un semáforo ('verde', 'amarillo intermitente', 'amarillo', 'rojo') y le indica si el coche debe detenerse o puede continuar, con una gestión de errores si el valor ingresado no es válido.
-    - [Ver ejercicio 5](./exercise-five/)
+    - [Ver ejercicio 5](./src/exercise-five/index.html)
 
 - ✅ **6. Calificación en Letras:** 
     - **Descripción:** El algoritmo solicita una calificación numérica y devuelve la calificación correspondiente en formato de letras: Suspensa, Aprobada, Notable, Sobresaliente o Matrícula de Honor.
-    - [Ver ejercicio 6](./exercise-six/)
+    - [Ver ejercicio 6](./src/exercise-six/index.html)
 
 - ✅ **7. Validación de Dominio de URL:** 
     - **Descripción:** Solicita una URL y extrae el dominio, indicando si es un dominio principal de 'Github' o un subdominio.
-    - [Ver ejercicio 7](./exercise-seven/)
+    - [Ver ejercicio 7](./src/exercise-seven/index.html)
 
 - ✅ **8. Números Pares o Impares:** 
     - **Descripción:** Solicita un número y realiza un bucle desde 0 hasta ese número, imprimiendo si el número es par o impar.
-    - [Ver ejercicio 8](./exercise-eight/)
+    - [Ver ejercicio 8](./src/exercise-eight/index.html)
 
 - ✅ **9. Ejercicio FizzBuzz:** 
     - **Descripción:** Solicita un número y realiza un bucle desde 1 hasta ese número. Imprime 'Fizz' si el número es múltiplo de 3, 'Buzz' si es múltiplo de 5, y 'FizzBuzz' si es múltiplo de ambos.
-    - [Ver ejercicio 9](./exercise-nine/)
+    - [Ver ejercicio 9](./src/exercise-nine/index.html)
 
 - ✅ **10. Inversión de Número:** 
     - **Descripción:** Solicita un número al usuario y lo imprime al revés, mostrando cómo invertir el orden de sus dígitos.
-    - [Ver ejercicio 10](./exercise-ten/)
+    - [Ver ejercicio 10](./src/exercise-ten/index.html)
 
 - ✅ **11. Validación de DNI Español:** 
     - **Descripción:** Solicita un número de DNI español y valida si es correcto según las reglas de formato y longitud del DNI español.
-    - [Ver ejercicio 11](./exercise-eleven/)
+    - [Ver ejercicio 11](./src/exercise-eleven/index.html)
 
 - ✅ **12. Patrón de Triángulo en HTML:** 
     - **Descripción:** Solicita un número representando la altura de un triángulo y genera un patrón visual en HTML con asteriscos. El triángulo se mueve de izquierda a derecha según el ancho de la ventana.
-    - [Ver ejercicio 12](./exercise-twelve/)
+    - [Ver ejercicio 12](./src/exercise-twelve/index.html)
 
+- ✅ **13. Validación de Hora y Creación de Objeto:** 
+    - **Descripción:** Solicita al usuario una cadena que represente la hora en formato HH:mm:ss. Valida si la estructura es correcta y crea un objeto con propiedades para horas, minutos y segundos. Imprime el objeto o un mensaje de error si la estructura no es válida.
+    - [Ver ejercicio 13](./src/exercise-twelve/index.html)
+
+- ✅ **14. Gestión de un Array de Coches:** 
+    - **Descripción:** Crea un objeto que represente un coche con propiedades como marca, modelo, matrícula, velocidad actual y estado (encendido/apagado). Incluye un array de al menos 4 coches. Imprime la velocidad del tercer coche, un círculo rojo o verde según el estado de los coches, la marca del primer coche encendido (o un mensaje si ninguno lo está), y la velocidad media de todos los coches.
+    - [Ver ejercicio 14](./src/exercise-twelve/index.html)
+
+- ✅ **15. Ticket de Compra:** 
+    - **Descripción:** Crea un array de productos (id, nombre, tipo y precio) que representen un carrito de compras. Solicita al usuario el monto total del pago y genera un ticket que incluya la lista de productos con su precio total, el monto total de la compra, el pago del usuario y el cambio a devolver. Si el pago es insuficiente, imprime un mensaje de error.
+    - [Ver ejercicio 15](./src/exercise-twelve/index.html)
 ⏳
 
 📜 Licencia Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
